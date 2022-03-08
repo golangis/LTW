@@ -7,12 +7,33 @@
     <body>
         <h1>Fancy Form</h1>
         <form>
-            <p>Name: <br><input type="text" placeholder="Insira o seu nome" name="name" required="required"></p> 
-            <p>Age: <br>
+            <p>
+                Name:<br>
+                <input type="text" placeholder="Insert your name here" name="name" required="required">
+            </p> 
+            <p>
+                Age:<br>
                 <input type="radio" name="opt" value="<18"> &lt 18<br>
                 <input type="radio" name="opt" value="18-35">18-35<br>
                 <input type="radio" name="opt" value="36-48">36-48<br>
                 <input type="radio" name="opt" value=">49"> &gt 49
+            </p>
+            <p>
+                Profession:<br>
+                <input type="datalist">
+            </p>
+            <p>
+                Your Interests:<br>
+                <input type="checkbox" name="interest" value="Sports"> Sports <br>
+                <input type="checkbox" name="interest" value="Politics"> Politics <br>
+                <input type="checkbox" name="interest" value="Spirituality and Well Being"> Spirituality and Well Being <br>
+                <input type="checkbox" name="interest" value="Art and Culture"> Art and Culture <br>
+                <input type="checkbox" name="interest" value="Science and Tech"> Science and Tech <br>
+                <input type="checkbox" name="interest" value="Copy and Paste HTML Code"> Copy and Paste HTML Code <br>
+            </p>
+            <p>
+                How did you find us?<br>
+                <textarea name="findUs" rows="5" cols="40" placeholder="Insert here how you found about us"></textarea>
             </p>
             
         </form>
