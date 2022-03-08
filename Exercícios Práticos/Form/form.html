@@ -6,7 +6,7 @@
 
     <body>
         <h1>Fancy Form</h1>
-        <form>
+        <form method="get">
             <p>
                 Name:<br>
                 <input type="text" placeholder="Insert your name here" name="name" required="required">
@@ -21,6 +21,13 @@
             <p>
                 Profession:<br>
                 <input type="datalist">
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                  </datalist>
             </p>
             <p>
                 Your Interests:<br>
@@ -35,7 +42,7 @@
                 How did you find us?<br>
                 <textarea name="findUs" rows="5" cols="40" placeholder="Insert here how you found about us"></textarea>
             </p>
-            
+            <input type="submit">
         </form>
     </body>
 
