@@ -58,6 +58,8 @@ body ul{
 }
 #news article header h1{
   position: absolute;
+  padding: 1cm;
+  text-shadow: 3px 3px #10304e;
 }
 #news article p:first-of-type::first-letter{
   font-size: 2em;
