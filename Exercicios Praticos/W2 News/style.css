@@ -10,39 +10,43 @@ header a{
   color: white;
   text-decoration: none
 }
+body ul{
+  padding-left: 0;
+}
 body ul a{
-  font-family: Lora;
+  font-family: Poppins;
   font-size: 1.4em;
+  
   color: black;
   text-decoration: none;
 }
 body ul li{
-  margin-top: 3px;
-  margin-bottom: 5px;
+  margin-top: 3em;
+  margin-bottom: 5em;
 }
 body ul li:first-child{
-  border-top: 6px solid red;
-  padding: 3px;
+  border-top: 0.5em solid red;
+  padding: 1em;
 }
 body ul li:nth-child(2){
-  border-top: 5px solid #54e49a;
-  padding: 3px;
+  border-top: 0.5em solid #54e49a;
+  padding: 1em;
 }
 body ul li:nth-child(3){
-  border-top: 5px solid rgb(183, 88, 230);
-  padding: 3px;
+  border-top: 0.5em solid rgb(183, 88, 230);
+  padding: 1em;
 }
 body ul li:nth-child(4){
-  border-top: 5px solid rgb(238, 166, 40);
-  padding: 3px;
+  border-top: 0.5em solid rgb(238, 166, 40);
+  padding: 1em;
 }
 body ul li:nth-child(5){
-  border-top: 5px solid rgb(0, 174, 255);
-  padding: 3px;
+  border-top: 0.5em solid rgb(0, 174, 255);
+  padding: 1em;
 }
 body ul li:nth-child(6){
-  border-top: 5px solid rgb(240, 99, 176);
-  padding: 3px;
+  border-top: 0.5em solid rgb(240, 99, 176);
+  padding: 1em;
 }
 body ul{
     list-style-type: none;
@@ -64,8 +68,8 @@ body ul{
 }
 #news article header h1{
   position: absolute;
-  padding: 1cm;
-  text-shadow: 3px 3px #10304e;
+  padding: 2em;
+  text-shadow: 0.1em 0.1em #10304e;
 }
 #news article p:first-of-type::first-letter{
   font-size: 2em;
@@ -77,7 +81,6 @@ body ul{
   text-decoration: none;
   color: white;
   background-color: #F4655F;
-  padding: 15px;
   font-family: Poppins;
 } 
 #news footer a{
@@ -98,7 +101,11 @@ footer .comments::after{
 footer:last-of-type{
   background-color: #2A2F33;
   color: white;
-  padding: 15px;
   font-family: Poppins;
 } 
-
+footer{
+  padding: 1.5em;
+}
+body{
+  width: 60em;
+}
