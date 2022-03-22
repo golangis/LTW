@@ -5,12 +5,12 @@ body > :nth-child(1){
 #signup :first-child::after{
   content: " | ";
 }
-header a:link{
+header a{
   font-family: Poppins;
   color: white;
   text-decoration: none
 }
-body ul a:link{
+body ul a{
   font-family: Lora;
   font-size: 1.4em;
   color: black;
@@ -21,22 +21,28 @@ body ul li{
   margin-bottom: 5px;
 }
 body ul li:first-child{
-  border-top: 5px solid red;
+  border-top: 6px solid red;
+  padding: 3px;
 }
 body ul li:nth-child(2){
   border-top: 5px solid #54e49a;
+  padding: 3px;
 }
 body ul li:nth-child(3){
   border-top: 5px solid rgb(183, 88, 230);
+  padding: 3px;
 }
 body ul li:nth-child(4){
   border-top: 5px solid rgb(238, 166, 40);
+  padding: 3px;
 }
 body ul li:nth-child(5){
   border-top: 5px solid rgb(0, 174, 255);
+  padding: 3px;
 }
 body ul li:nth-child(6){
   border-top: 5px solid rgb(240, 99, 176);
+  padding: 3px;
 }
 body ul{
     list-style-type: none;
@@ -71,6 +77,7 @@ body ul{
   text-decoration: none;
   color: white;
   background-color: #F4655F;
+  padding: 15px;
   font-family: Poppins;
 } 
 #news footer a{
@@ -85,9 +92,13 @@ footer .author::before{
 footer .comments::after{
   content: " comments"
 } 
+.comments, .comments::after{
+  text-decoration: underline;
+}
 footer:last-of-type{
   background-color: #2A2F33;
   color: white;
+  padding: 15px;
   font-family: Poppins;
 } 
 

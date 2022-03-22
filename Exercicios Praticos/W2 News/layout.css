@@ -1,3 +1,48 @@
-footer{
-    text-indent: 1em
+#signup{
+    text-align: right;
+    padding: 0px 20px 10px;
 }
+#menu *{
+    display: flex;
+    justify-content: center;
+}
+body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    margin: 0px 300px 0px;
+}
+body > :nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 0px 20px 0px;
+}
+#menu{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#news{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 10px;
+}
+footer:last-of-type{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#related{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    padding: 20px;
+}
+
