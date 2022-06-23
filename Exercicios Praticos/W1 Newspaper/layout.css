@@ -1,0 +1,14 @@
+body {
+    text-align: justify;
+    background-color: blueviolet;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+article img{
+    border: 0.2em solid black;
+}
