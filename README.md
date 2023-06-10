@@ -15,9 +15,9 @@ To execute the program in Windows you should:
 - Have wsl installed
 
 After that, you should:
-    - 1. Clone the repository
-    - 3. On the terminal, run `wsl` to enter the linux terminal
-    - 2. Run the command `php -S localhost:8080` in the LunchLab folder
+- Clone the repository
+- On the terminal, run `wsl` to enter the linux terminal
+- Run the command `php -S localhost:8080` in the LunchLab folder
   
 ### Project Development📝
 
