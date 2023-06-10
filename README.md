@@ -1,4 +1,5 @@
-# LTW 2021-2022 ![img](https://github.com/golangis/LTW-2021-2022/blob/main/LunchLab/images/logo.png)
+![img](https://github.com/golangis/LTW-2021-2022/blob/main/LunchLab/images/logo.png)
+# LTW 2021-2022 - LunchLab 
 
 ## [Project](https://github.com/golangis/LTW-2021-2022/tree/main/LunchLab) 
 
