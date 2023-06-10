@@ -1,8 +1,8 @@
-# LTW 2021-2022
+# LTW 2021-2022 ![img](https://github.com/golangis/LTW-2021-2022/blob/main/LunchLab/images/logo.png)
 
-## [Project](https://github.com/golangis/LTW-2021-2022/tree/main/LunchLab) ![img](https://github.com/golangis/LTW-2021-2022/blob/main/LunchLab/images/logo.png)
+## [Project](https://github.com/golangis/LTW-2021-2022/tree/main/LunchLab) 
 
-### [Project Description] ![img](https://github.com/golangis/LTW-2021-2022/blob/main/LunchLab/images/food-decorate-readme.png)
+### Project Description <a href="url"><img src="https://github.com/golangis/LTW-2021-2022/blob/main/LunchLab/images/food-decorate-readme.png" align="left" height="24" width="24" ></a>
 
 This project was developed for the course of Web Languages and Technologies (LTW) of the Integrated Master in Informatics and Computing Engineering (MIEIC) at FEUP. The main goal of this project is to develop a web application that allows users to search for food and restaurants, as well as to create their own restaurants. 
 
@@ -19,7 +19,7 @@ After that, you should:
     - 3. On the terminal, run `wsl` to enter the linux terminal
     - 2. Run the command `php -S localhost:8080` in the LunchLab folder
   
-### Project Development
+### Project Development📝
 
 The first thing we did was defining the UML diagram of the database. We started by defining the entities and their attributes, as well as the relationships between them. After that, we defined the database schema and created the database. 
 
@@ -30,7 +30,7 @@ We started by creating the login and register pages, as well as the database fun
 Then, we created the restaurant page, where users can see the restaurant information, as well as the dishes and reviews. We also created the restaurant owner page, where restaurant owners can see the reviews of their restaurant and answer to them.
 
 
-### [Team Members]
+### Team Members 👥
 We had a whole lot of fun developing this project! It was a great experience and we learned a lot.
 
 This project was developed by: 
